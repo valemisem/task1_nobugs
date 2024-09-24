@@ -24,7 +24,7 @@ public class bookCollection  {
     }
     public void printBooks() {
         for (Book book : bookSet) {
-            System.out.print("\n" + book.getName());
+            System.out.print("Books:\n" + book.getName());
         }
     }
 
