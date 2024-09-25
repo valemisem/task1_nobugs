@@ -1,0 +1,27 @@
+### GET request to example server
+GET https://crudcrud.com/api/da42e48bc4094dab8f3689974f96c364/unicorn/66e74e43fe837603e816c289
+###
+
+POST https://crudcrud.com/api/da42e48bc4094dab8f3689974f96c364/unicorn
+Content-Type: application/json
+
+{
+  "name" : "Sunset shimmer",
+  "tailColor": "blue"
+}
+
+###
+DELETE https://crudcrud.com/api/fcc7b6cb2ea842d29e73bd7db3cfca7e/unicorn/66e48e0bfe837603e816c019
+
+###
+
+PUT https://crudcrud.com/api/da42e48bc4094dab8f3689974f96c364/unicorn/66e74e43fe837603e816c289
+Content-Type: application/json
+
+{
+  "name" : "Sunset shimmer",
+  "tailColor": "yellow"
+}
+
+###
+
